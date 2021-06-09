@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'RanolP Wiki',
+    siteUrl: 'https://ranolp.github.io/wiki',
   },
   plugins: [
     'gatsby-plugin-typescript',
-    'gatsby-plugin-preact',
     'gatsby-plugin-react-helmet-async',
-    'gatsby-plugin-sitemap',
+    'gatsby-plugin-advanced-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

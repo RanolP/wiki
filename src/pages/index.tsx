@@ -1,7 +1,9 @@
 import { navigate } from 'gatsby';
-import * as React from 'preact';
+import { useEffect } from 'react';
 
 export default function IndexPage() {
-  navigate('/대문');
+  useEffect(() => {
+    navigate('/대문');
+  }, []);
   return null;
 }

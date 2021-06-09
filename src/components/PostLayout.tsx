@@ -1,10 +1,9 @@
-import { ComponentChildren } from 'preact';
-import * as React from 'preact';
+import React, { ReactNode } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Layout from './Layout';
 
 type PostLayoutProps = {
-  children: ComponentChildren;
+  children: ReactNode;
   pageContext: {
     frontmatter: Record<string, any>;
   };
