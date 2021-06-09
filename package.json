@@ -1,0 +1,37 @@
+{
+  "name": "ranolp-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RanolP Wiki",
+  "author": "RanolP",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/preact": "^1.6.22",
+    "goober": "^2.0.37",
+    "preact": "^10.5.13",
+    "react-helmet-async": "^1.0.9"
+  },
+  "devDependencies": {
+    "@types/react-helmet-async": "^1.0.3",
+    "gatsby": "^3.7.0",
+    "gatsby-plugin-manifest": "^3.7.0",
+    "gatsby-plugin-mdx": "^2.7.0",
+    "gatsby-plugin-mdx-frontmatter": "^0.0.4",
+    "gatsby-plugin-page-creator": "^3.7.0",
+    "gatsby-plugin-preact": "^5.7.0",
+    "gatsby-plugin-react-helmet-async": "^1.2.0",
+    "gatsby-plugin-sitemap": "^4.3.0",
+    "gatsby-plugin-typescript": "^3.7.0",
+    "gatsby-source-filesystem": "^3.7.0",
+    "preact-render-to-string": "^5.1.19",
+    "prettier": "^2.3.1"
+  }
+}
