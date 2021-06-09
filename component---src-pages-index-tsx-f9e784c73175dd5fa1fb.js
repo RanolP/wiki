@@ -1,0 +1,2 @@
+(self.webpackChunkranolp_wiki=self.webpackChunkranolp_wiki||[]).push([[691],{6738:function(n,u,e){"use strict";e.r(u),e.d(u,{default:function(){return f}});var t=e(5444),i=e(7294);function f(){return(0,i.useEffect)((function(){(0,t.navigate)("/대문")}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-f9e784c73175dd5fa1fb.js.map

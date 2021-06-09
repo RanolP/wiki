@@ -1,0 +1,2 @@
+(self.webpackChunkranolp_wiki=self.webpackChunkranolp_wiki||[]).push([[218],{938:function(e,n,t){"use strict";t.r(n);var l=t(7294),u=t(5444),a=t(2055);n.default=function(){return l.createElement("main",null,l.createElement(a.Helmet,null,l.createElement("title",null,"Not Found")),l.createElement("h1",null,"Page not found"),l.createElement(u.Link,{to:"/"},"Go home"),".")}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-b12ae73cc8b5ce34abde.js.map
