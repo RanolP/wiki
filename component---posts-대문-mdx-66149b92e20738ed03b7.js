@@ -1,0 +1,2 @@
+(self.webpackChunkranolp_wiki=self.webpackChunkranolp_wiki||[]).push([[528],{8191:function(n,t,o){"use strict";o.r(t),o.d(t,{_frontmatter:function(){return c},default:function(){return s}});var e=o(2122),r=o(9756),u=(o(7294),o(4983)),p=o(4292),a=["components"],c={},i={_frontmatter:c},f=p.Z;function s(n){var t=n.components,o=(0,r.Z)(n,a);return(0,u.kt)(f,(0,e.Z)({},i,o,{components:t,mdxType:"MDXLayout"}),(0,u.kt)("p",null,"자료 생산 및 보조용 위키"))}s.isMDXComponent=!0}}]);
+//# sourceMappingURL=component---posts-대문-mdx-66149b92e20738ed03b7.js.map
