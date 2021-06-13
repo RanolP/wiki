@@ -9,19 +9,25 @@
   ],
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "emotion": "^11.0.0",
     "gatsby-plugin-advanced-sitemap": "^2.0.0",
-    "goober": "^2.0.37",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.4.0",
     "react-helmet-async": "^1.0.9"
   },
   "devDependencies": {
     "@types/react-helmet-async": "^1.0.3",
     "gatsby": "^3.7.0",
+    "gatsby-plugin-emotion": "^6.7.1",
+    "gatsby-plugin-lunr": "^1.5.2",
     "gatsby-plugin-manifest": "^3.7.0",
     "gatsby-plugin-mdx": "^2.7.0",
     "gatsby-plugin-mdx-frontmatter": "^0.0.4",

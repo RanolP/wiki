@@ -5,14 +5,17 @@ import Layout from './Layout';
 type PostLayoutProps = {
   children: ReactNode;
   pageContext: {
-    frontmatter: Record<string, any>;
+    frontmatter: {
+      title: string;
+    };
   };
 };
 
 export default function PostLayout({
   children,
-  pageContext: { frontmatter },
+  pageContext: { frontmatter, ...pageContext },
 }: PostLayoutProps): JSX.Element {
+  console.log(pageContext);
   return (
     <Layout>
       <Helmet>
